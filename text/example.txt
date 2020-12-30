@@ -1,0 +1,13 @@
+hi
+this
+is
+a 
+text
+file
+delimted
+by 
+a 
+new
+line
+AKA
+\n
