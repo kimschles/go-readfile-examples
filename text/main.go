@@ -24,11 +24,12 @@ func main() {
 		fmt.Println(scanner.Text())
 	}
 
-	// Close the file to free resources
-	err = file.Close()
-
 	// If there was an error scanning the file, report it and exit
 	if scanner.Err() != nil {
 		log.Fatal(scanner.Err())
 	}
+
+	// Close the file to free resources
+	err = file.Close()
+
 }
